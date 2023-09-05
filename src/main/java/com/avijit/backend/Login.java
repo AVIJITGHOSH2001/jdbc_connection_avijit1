@@ -24,7 +24,7 @@ PrintWriter out = resp.getWriter();
 
 if(myemail.equals("avijit@gmail.com") && mypass.equals("avijit123"))
 {
-	//req.setAttribute("name_key","Avijit Ghosh");
+	//req.setAttribute("name_key","Avijit ghosh");
 	 HttpSession session = req.getSession();
 	 session.setAttribute("name_key", "Avijit ghosh");
 	

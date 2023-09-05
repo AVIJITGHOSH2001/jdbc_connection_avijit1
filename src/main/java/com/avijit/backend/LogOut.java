@@ -19,6 +19,6 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 	session.invalidate();
 	
 	RequestDispatcher rd = req.getRequestDispatcher("/index.jsp");
-	rd.forward(req, resp)
+	rd.forward(req, resp);
 }
 }
